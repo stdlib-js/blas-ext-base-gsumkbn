@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-02-02)
+
+<section class="features">
+
+### Features
+
+-   [`3f3edff`](https://github.com/stdlib-js/stdlib/commit/3f3edffe817993b5668fd72c81e8c677bc895d14) - add support for accessor arrays in `blas/ext/base/gsumkbn` [(#4923)](https://github.com/stdlib-js/stdlib/pull/4923)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,6 +22,9 @@
 
 <details>
 
+-   [`1d1e8b7`](https://github.com/stdlib-js/stdlib/commit/1d1e8b724cd26e6d0cd70aec5883844ea3aa8e83) - **refactor:** remove redundant code in accessor functions [(#5014)](https://github.com/stdlib-js/stdlib/pull/5014) _(by Aayush Khanna)_
+-   [`3665b8b`](https://github.com/stdlib-js/stdlib/commit/3665b8b914466e475cfc8aa2a72bc6068ee0a5e8) - **docs:** use correct types in `blas/ext/base/gsumkbn` [(#4961)](https://github.com/stdlib-js/stdlib/pull/4961) _(by Aayush Khanna)_
+-   [`3f3edff`](https://github.com/stdlib-js/stdlib/commit/3f3edffe817993b5668fd72c81e8c677bc895d14) - **feat:** add support for accessor arrays in `blas/ext/base/gsumkbn` [(#4923)](https://github.com/stdlib-js/stdlib/pull/4923) _(by Aayush Khanna)_
 -   [`ffc3cf0`](https://github.com/stdlib-js/stdlib/commit/ffc3cf0d42d14e1f1d9de30577bb0bb80603be29) - **refactor:** update `blas/ext/base/gsumkbn` to follow current project conventions [(#4677#pullrequestreview-2560395620)](https://github.com/stdlib-js/stdlib/pull/4677#pullrequestreview-2560395620) _(by Muhammad Haris)_
 
 </details>
@@ -24,8 +37,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Muhammad Haris
 
 </section>
