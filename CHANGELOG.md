@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2025-04-25)
+## 0.3.0 (2026-01-31)
 
 <section class="features">
 
@@ -16,12 +16,26 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`c72df11`](https://github.com/stdlib-js/stdlib/commit/c72df11dfc1aaa4ddea893f9f0bb41b3fd53554d) - address pointer increment bug
+-   [`0c7c973`](https://github.com/stdlib-js/stdlib/commit/0c7c973f23160582ef1c7b5f7295fe9b6e32e8d7) - update implementation to preserve signed zeros
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
+-   [`c72df11`](https://github.com/stdlib-js/stdlib/commit/c72df11dfc1aaa4ddea893f9f0bb41b3fd53554d) - **fix:** address pointer increment bug _(by Athan Reines)_
+-   [`0c7c973`](https://github.com/stdlib-js/stdlib/commit/0c7c973f23160582ef1c7b5f7295fe9b6e32e8d7) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`c376ed9`](https://github.com/stdlib-js/stdlib/commit/c376ed9ecd7e1a73a2a8fd1de15134179779ccb8) - **test:** add zeros tests _(by Athan Reines)_
 -   [`1d1e8b7`](https://github.com/stdlib-js/stdlib/commit/1d1e8b724cd26e6d0cd70aec5883844ea3aa8e83) - **refactor:** remove redundant code in accessor functions [(#5014)](https://github.com/stdlib-js/stdlib/pull/5014) _(by Aayush Khanna)_
 -   [`3665b8b`](https://github.com/stdlib-js/stdlib/commit/3665b8b914466e475cfc8aa2a72bc6068ee0a5e8) - **docs:** use correct types in `blas/ext/base/gsumkbn` [(#4961)](https://github.com/stdlib-js/stdlib/pull/4961) _(by Aayush Khanna)_
