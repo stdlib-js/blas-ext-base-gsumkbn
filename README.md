@@ -48,13 +48,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import gsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@deno/mod.js';
+import gsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@v0.3.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@deno/mod.js';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@v0.3.1-deno/mod.js';
 ```
 
 #### gsumkbn( N, x, strideX )
@@ -145,7 +145,7 @@ var v = gsumkbn.ndarray( 4, x, 2, 1 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import gsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@deno/mod.js';
+import gsumkbn from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gsumkbn@v0.3.1-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
